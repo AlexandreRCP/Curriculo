@@ -1,13 +1,598 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alexandre Paiva</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css" />
 </head>
+
 <body>
-    <h1>Página principal</h1>
-    <a href="vendas.html">Ir para pagina de vendas clicando aqui!</a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="list-group sidebar" id="list-tab" role="tablist">
+                    <div class="list-group-item logo">
+                        <h1>C.V</h1>
+                    </div>
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">
+                        <svg class="bi bi-person-square" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            fill-rule="evenodd"
+                            d="M14 1H2a1 1 0 00-1
+                                              1v12a1 1 0 001 1h12a1 1 0 001-1V2a1 1 0
+                                              00-1-1zM2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2
+                                              2 0 002-2V2a2 2 0 00-2-2H2z"
+                            clip-rule="evenodd"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            d="M2 15v-1c0-1
+                                                  1-4 6-4s6 3 6 4v1H2zm6-6a3 3 0 100-6 3 3
+                                                  0 000 6z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                        <br />
+                        <span>
+                          Alexandre Paiva
+                        </span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">
+                        <svg class="bi bi-card-list" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          fill-rule="evenodd"
+                          d="M14.5
+                                                    3h-13a.5.5 0 00-.5.5v9a.5.5 0
+                                                    00.5.5h13a.5.5 0 00.5-.5v-9a.5.5 0
+                                                    00-.5-.5zm-13-1A1.5 1.5 0 000
+                                                    3.5v9A1.5 1.5 0 001.5 14h13a1.5 1.5
+                                                    0 001.5-1.5v-9A1.5 1.5 0 0014.5
+                                                    2h-13z"
+                          clip-rule="evenodd"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          d="M5
+                                                        8a.5.5 0 01.5-.5h7a.5.5 0 010
+                                                        1h-7A.5.5 0 015 8zm0-2.5a.5.5 0
+                                                        01.5-.5h7a.5.5 0 010 1h-7a.5.5 0
+                                                        01-.5-.5zm0 5a.5.5 0
+                                                        01.5-.5h7a.5.5 0 010 1h-7a.5.5 0
+                                                        01-.5-.5z"
+                          clip-rule="evenodd"
+                        />
+                        <circle cx="3.5" cy="5.5" r=".5" />
+                        <circle cx="3.5" cy="8" r=".5" />
+                        <circle cx="3.5" cy="10.5" r=".5" />
+                      </svg>
+                        <br />
+                        <span>Experiências</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">
+                        <svg class="bi bi-envelope-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M.05
+                                                                3.555L8
+                                                                8.414l7.95-4.859A2
+                                                                2 0 0014 2H2A2 2
+                                                                0 00.05
+                                                                3.555zM16
+                                                                4.697l-5.875
+                                                                3.59L16
+                                                                11.743V4.697zm-.168
+                                                                8.108L9.157
+                                                                8.879 8
+                                                                9.586l-1.157-.707-6.675
+                                                                3.926A2 2 0 002
+                                                                14h12a2 2 0
+                                                                001.832-1.195zM0
+                                                                11.743l5.875-3.456L0
+                                                                4.697v7.046z"
+                />
+              </svg>
+                        <br /> <span>Contato</span>
+                    </a>
+                </div>
+                <div class="tab-content content-site" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                        <div class="row justify-content-md-center">
+                            <h1 class="title-with-border">Um pouco sobre mim</h1>
+                        </div>
+                        <div class="row justify-content-md-center">
+                            <div class="jumbotron col-md-10">
+                                <div class="media">
+                                    <img width="250px" height="250px" src="C:\Temp\Site de Vendas\arquivo\img\eu.jpg" class="mr-3" alt="..." />
+                                    <div class="media-body">
+                                        <h2 class="mt-0">Alexandre Rodrigues Cirino de Paiva</h2>
+                                        <h6 class="mt-0 my-location">
+
+                                            <svg class="bi bi-map" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M15.817.613A.5.5 0 0116 1v13a.5.5 0 01-.402.49l-5 1a.502.502 0 01-.196 0L5.5 14.51l-4.902.98A.5.5 0 010 15V2a.5.5 0 01.402-.49l5-1a.5.5 0 01.196 0l4.902.98 4.902-.98a.5.5 0 01.415.103zM10 2.41l-4-.8v11.98l4 .8V2.41zm1 11.98l4-.8V1.61l-4 .8v11.98zm-6-.8V1.61l-4 .8v11.98l4-.8z" clip-rule="evenodd"/>
+                                          </svg> Ilhéus, Bahia - Brasil
+                                        </h6>
+                                        <h6>Oi!</h6>
+                                        <p>Meu nome é Alexandre sou apaixonado por Tecnologia desde 98 quando minha mãe comprou nosso primeiro computador um Itaú TEC, epoca
+                                            da internet discada, sempre conctado depois das 23 horas, tinha varios amigos no MSN(das antigas), curtia muito jogos tanto
+                                            online como em CD's.</p>
+                                        <p>Meu primeiro curso de Informatica foi ne Next's Tecnologia em Sobradinho-DF(tenho o certificado até hoje), lá aprendi Digitação, Word(TOP da epoca) e Win 98 de codi nome
+                                            Memphis(Quem lembra?).</p>
+                                        <p>Depois de passar por muitas Tecnologias que evoluia bastante na epoca conheci o HTML e me aprofundei nas table tr e td,
+                                            ainda tem gente que fala que nada se cria kkkkk, com ajuda dos conhecimento de html e css, virei Coordenador de salas de bate Papo no UOL, fase
+                                            boa!. Depois consegui um emprego na área voltada ao atendimento, administrativo e escritorio, até começar meu cruso de Sistema de Informação em 2012,
+                                            aonde conheci outras liguagens de programação, inclusive OO, foi maravilhoso, programa quebrando paradigmas é de deixar qualquer um entusiasmado,
+                                            terminei minha Graduação em 2016 sabendo JAVA, C++, C#, PHP, Mobile e outras.</p>
+                                        <p>JAVA foi amor  aprimeira vista, queria aprender tudo sobre JAVA e em 2012 começei um cruso no SENAI de JAVA WEB não tinha as "facilidades" 
+                                            de hoje com varios frameWork como Spring; Play; Struts; e muito menos o JSF, Fiz alguns sites e software.</p>
+                                        <p>Então Graduado não queria parar de estudar então fui fazer uma pós-graduação, escolhi Segurança da Informação pelo saber e conhecimento que 
+                                            teria que ter em todas as Tecnologias e em todas as areas de TI, Seguranca abrange todas as vertentes da TI não só ela propria Redes, DevOps,
+                                            Suport, Analise, Engenharia de Software, Hardware, Gerenciamento, Auditoria, Riscos e etc...</p>
+                                        </br>
+                                            <h6 class="destak">Mais Cursos: CISCO, LGPD, Inglês e etc. Baixe Curriculo!</h6>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-top: 40px;">
+                                    <div class="col-md-4">
+                                        <h3 class="sub-title-about-me">Soft skills</h3>
+                                        <h8>Princípios éticos;
+                                            Confiança;
+                                            Atitude positiva;
+                                            Motivação;
+                                            Trabalho em equipe;
+                                            Organização e gestão do tempo;
+                                            Capacidade de trabalhar sob pressão;
+                                            Comunicação;
+                                            Flexibilidade;
+                                            Segurança.</h8>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h3 class="sub-title-about-me">Disponivel para contratação</h3>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="C:\Temp\Site de Vendas\arquivo\CV-ARCP.pdf" target="_blank">
+                                            <button type="button" class="btn btn-dark btn-lg col-md-12">Baixar Curriculo</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-md-center">
+                            <h1 class="title-with-border">Serviços</h1>
+                        </div>
+                        <div class="row justify-content-md-center">
+                            <div class="row col-md-10">
+                                <div class="col-md-4">
+                                    <div class="card service">
+                                        <div class="card-body">
+                                            <div>
+                                                <div class="service-icon">
+                                                    <svg class="bi bi-display" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                      <path d="M5.75 13.5c.167-.333.25-.833.25-1.5h4c0 .667.083 1.167.25 1.5H11a.5.5 0 010 1H5a.5.5 0 010-1h.75z"/>
+                                                      <path fill-rule="evenodd" d="M13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 00-.254.302A1.46 1.46 0 001 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 00.538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 00.254-.302 1.464 1.464 0 00.143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 00-.302-.254A1.46 1.46 0 0013.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z" clip-rule="evenodd"/>
+                                                      </svg>
+                                                </div>
+
+                                                <h5 class="card-title">Desenvolvimento</h5>
+
+                                                <h8 class="row justify-content-md-center">
+                                                Software | Sistemas WEB | CMS
+                                                </br>
+                                                </br>
+                                                HTML, CSS, JavaScript,
+                                                JAVA, PHP, BootStrap, Joomla, WordPress
+                                            </h8>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card service">
+                                        <div class="card-body">
+
+                                            <div>
+                                                <div class="service-icon">
+                                                    <svg class="bi bi-display" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                      <path d="M5.75 13.5c.167-.333.25-.833.25-1.5h4c0 .667.083 1.167.25 1.5H11a.5.5 0 010 1H5a.5.5 0 010-1h.75z"/>
+                                                      <path fill-rule="evenodd" d="M13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 00-.254.302A1.46 1.46 0 001 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 00.538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 00.254-.302 1.464 1.464 0 00.143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 00-.302-.254A1.46 1.46 0 0013.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z" clip-rule="evenodd"/>
+                                                      </svg>
+                                                </div>
+
+                                                <h5 class="card-title">Segurança da Informação</h5>
+
+                                                <h8 class="row justify-content-md-center">
+                                                    VMs | Pentest | FrameWorks
+                                                    </br>
+                                                    </br>
+                                                    VMs, hardening, ISO27000,
+                                                    CIS, NIST, MITRE ATT & CK e CISCOs
+                                                </h8>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card service">
+                                        <div class="card-body">
+
+                                            <div>
+                                                <div class="service-icon">
+                                                    <svg class="bi bi-display" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                      <path d="M5.75 13.5c.167-.333.25-.833.25-1.5h4c0 .667.083 1.167.25 1.5H11a.5.5 0 010 1H5a.5.5 0 010-1h.75z"/>
+                                                      <path fill-rule="evenodd" d="M13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 00-.254.302A1.46 1.46 0 001 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 00.538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 00.254-.302 1.464 1.464 0 00.143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 00-.302-.254A1.46 1.46 0 0013.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z" clip-rule="evenodd"/>
+                                                      </svg>
+                                                </div>
+
+                                                <h5 class="card-title">Suport</h5>
+
+                                                <h8 class="row justify-content-md-center">
+                                                    Redes | Usuário| Hardware
+                                                    </br>
+                                                    </br>
+                                                    Instalação, manuntenção e Implementação de sistemas,
+                                                    Help Desk, Zendesk, Ferramentas CISCO
+                                                </h8>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                        <div class="row justify-content-md-center">
+                            <h1 class="title-with-border">Resumo</h1>
+                        </div>
+                        <div class="row justify-content-md-center">
+                            <div class="row col-md-10 ">
+                                <div class="col-md-6">
+                                    <h3 class="title-with-border">Experiências</h3>
+                                    <ul class="timeline">
+                                        <li>
+                                            <h5>Escriturário</h5>
+                                            <a target="_blank" href="https://sindireta.org.br/">SINDIRETA</a>
+                                            <span class="float-right" style="margin-right: 20px;">2005 - 2022</span>
+                                            <p style="margin-top: 20px;margin-right: 20px;"> Tendo como principal função: Suporte aos colaboradores na area de TI. ex.: montagem e manuntenção de
+                                                micro computador, instalação/configuração de aplicativos e ativos de Redes, configuração de conexão remota e dominio
+                                                em servidores Windows/Linux, proteção de redes backup, ids, ips, firewall e etc.
+                                            <p style="margin-top: 20px;margin-right: 20px;">  Atendimento ao Filiado, digitalização de documentos Oficiais e Extra Oficiais.
+                                                Resultados: Modernização de Redes e Softwares, tornando mais ágil todo o processo de atendimento.</p>
+                                            <p style="margin-top: 20px;margin-right: 20px;">  Agregação de Segurança nas redes, host e servidores tornando todos os sistemas Disponivel Integro e acessivel.</p> 
+                                            <p style="margin-top: 20px;margin-right: 20px;">  Organização no setor de cadastro em arquivo de fichas de filiação, agregando ao sistemas varios scanners de fichas de filiados ao sistema, tornando
+                                                mais pratico e rapido o atendimento ao filiado, modernezação de documentos como Oficios, Memorandos, Atas, Cartas de Apresentações e etc...</p>
+                                            </p></br>
+                                            <a target="_blank" href="C:\Temp\Site de Vendas\arquivo\CartaApresentaçãoARCP.pdf">Carta de apresentação</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="title-with-border">Formação Academica</h3>
+                                    <ul class="timeline">
+                                        <li>
+                                            <h5>Sistema de Informação</h5>
+                                            <a target="_blank" href="https://www.educaedu-brasil.com/centros/facnet--faculdades-facnet-uni1557">Anhanguera</a>
+                                            <span class="float-right" style="margin-right: 20px;">2012 - 2016</span>
+                                            <p style="margin-top: 20px;margin-right: 20px;">O conceito de Sistemas de Informação está relacionado a qualquer mecanismo construído para coletar, armazenar e transmitir informações. O Analista de Sistemas é o responsável por administrar fluxos de informação.
+                                                O curso de Sistemas de Informação da Anhanguera traz disciplinas como Sistemas Operacionais, Redes de Computadores, Arquitetura E Organização De Computadores, e também Análise de Sistemas e diversos módulos de Programação.</p>
+                                            <p style="margin-top: 20px;margin-right: 20px;">Ao final do curso, você será capaz de:
+                                                Planejar, organizar e desenvolver sistemas de processamento, armazenamento e recuperação de dados
+                                                Administrar redes de computadores
+                                                Controlar o fluxo de informações
+                                                Coordenar equipes de desenvolvimento
+                                                Construir sites .
+                                            </p></br>
+                                            <a href="C:\Temp\Site de Vendas\arquivo\\certificados\Diploma Graduação ARCP.pdf" target="_blank">Certificado Bacharel</a>
+                                        </li>
+                                        <li>
+                                            <h5>Segurança da Informação e Perícias em Crimes Cibernéticos</h5>
+                                            <a target="_blank" href="https://upis.br/">UPIS</a>
+                                            <span class="float-right" style="margin-right: 20px;">2017 - 2018</span>
+                                            <p style="margin-top: 20px;margin-right: 20px;"> Direito Digital; Políticas e gestão da Segurança da Informação;
+                                                Metodologias, Processos e Normativos de Segurança da Informação; Segurança em Redes de Computadores; Sistemas
+                                                Criptográficos e Biométricos; Auditoria e Perícia de Segurança da Informação; Forense Digital; Softwares
+                                                Mal-Intencionados; Estratégias de Ataques e Defesas; Tópico Especiais em Segurança da Informação
+                                                e Perícias de Crimes Cibernéticos; Métodos e Técnicas de Pesquisa.
+                                            </p></br>
+                                            <a href="C:\Temp\Site de Vendas\arquivo\\certificados\Diploma Pós-Graduação ARCP.pdf" target="_blank">Certificado Pós-Graduação</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row justify-content-md-center">
+                                        <h3 class="title-with-border col-md-10">Cursos</h3>
+                                <div class="row col-md-10">
+                                    <div class="col-md-6">
+                                        <ul class="timeline">
+                                            <li>
+                                                <h5>CISCO / FAT</h5>
+                                                <a target="_blank" href="C:\Temp\Site de Vendas\arquivo\certificados\AlexandrePaiva-05 T Ter-Qui - 1-certificate.pdf">CyberOps Associate - 80 horas</a>
+                                                <span class="float-right" style="margin-right: 20px;">2021 - 2022</span>
+                                                <p style="margin-top: 20px;margin-right: 20px;"> Instalar máquinas virtuais para criar um ambiente seguro para
+                                                    implementar e analisar eventos de ameaças à segurança cibernética.
+                                                <p style="margin-top: 20px;margin-right: 20px;"> Explicar a função do analista de operações de segurança cibernética na
+                                                    empresa. Explicar os recursos e as características do sistema operacional
+                                                    Windows necessários para oferecer suporte às análises de segurança
+                                                    cibernética.
+                                                    Explicar os recursos e as características do sistema operacional Linux.
+                                                    Analisar a operação de protocolos e serviços de rede.</p>
+                                                <p style="margin-top: 20px;margin-right: 20px;">  Atividades e grupos: Instalar máquinas virtuais para criar um
+                                                    ambiente seguro para implementar e analisar eventos de ameaças à segurança cibernética. Explicar a função do
+                                                    analista de operações de segurança cibernética na empresa.</p>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>DESEC</h5>
+                                                <a target="_blank" href="C:\Temp\Site de Vendas\arquivo\certificados\certificado-introducao-pentest.pdf">Introdução ao PENTEST na Pratica - 2 horas</a>
+                                                <span class="float-right" style="margin-right: 20px;">2022</span>
+                                                <p style="margin-top: 20px;margin-right: 20px;"> 
+                                                    Pentest na pratica constitui de um curso pratico usando ferramentas e sistemas operacionais modernos, como KALI Linux 
+                                                    e suas ferramentas.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>SOLYD</h5>
+                                                <a target="_blank" href="C:\Temp\Site de Vendas\arquivo\certificados\certificado_pentest.pdf">Introdução ao HACKING e PENTEST 2.0 - 8 horas</a>
+                                                <span class="float-right" style="margin-right: 20px;">2022</span>
+                                                <p style="margin-top: 20px;margin-right: 20px;"> 
+                                                    Neste curso iremos passar por todas as principais fases de um pentest real, utilizando cenários, domínios e técnicas reais utilizados no dia a dia de 
+                                                    um profissional da segurança da informação.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>NDG Linux Unhatched / CISCO</h5>
+                                                <a target="_blank" href="C:\Temp\Site de Vendas\arquivo\certificados\AlexandrePaiva-NDG Linux Unhatc-certificate.pdf">NDG Linux Unhatched - 40 horas</a>
+                                                <span class="float-right" style="margin-right: 20px;">2022</span>
+                                                <p style="margin-top: 20px;margin-right: 20px;"> 
+                                                    NDG Linux Unhatched, que fornece uma introdução à linha de comando em Linux. Linux está em todo lugar! Como o acesso ao Linux continua a crescer, o 
+                                                    conhecimento do Linux é uma competência essencial para todos os profissionais de TI. Por ter concluído este curso, você adquiriu uma melhor compreensão 
+                                                    do Linux.
+                                                </p>
+                                            </li> 
+                                            <li>
+                                                <h5>CISCO / FAT</h5>
+                                                <a target="_blank" href="C:\Temp\Site de Vendas\arquivo\certificados\4556E47D.pdf">CyberOps Associate FASE I - 32 horas</a>
+                                                <span class="float-right" style="margin-right: 20px;">2021</span>
+                                                <p style="margin-top: 20px;margin-right: 20px;"> 
+                                                    Atividades e grupos: Módulos 1 - 3: Comunicação e Conectividade Básica de Rede
+                                                    Módulos 4 - 7: Conceitos de Ethernet
+                                                    Módulos 8 - 10: Comunicação entre Redes
+                                                    Módulos 11 - 13: Endereçamento IP
+                                                    Módulos 14 - 15: Comunicação de Aplicativos de Rede
+                                                    Módulos 16 - 17: Construindo e garantindo um exame de rede pequenaAtividades e grupos: Módulos 1 - 3:
+                                                    Comunicação e Conectividade Básica de Rede Módulos 4 - 7: Conceitos de Ethernet Módulos 8 - 10: Comunicação
+                                                    entre Redes Módulos 11 - 13: Endereçamento IP Módulos 14 - 15: Comunicação de Aplicativos de Rede Módulos 16 -
+                                                    17: Construindo e garantindo um exame de rede pequena
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>CISCO / FAT</h5>
+                                                <a target="_blank" href="C:\Temp\Site de Vendas\arquivo\certificados\AlexandrePaiva-CSCO-CO 05 T  Te-certificate.pdf">CCNAv7: Introduction to Networks - 32 horas</a>
+                                                <span class="float-right" style="margin-right: 20px;">2021</span>
+                                                <p style="margin-top: 20px;margin-right: 20px;"> 
+                                                    Module Group Exams
+                                                    External toolModules 1 - 3: Basic Network Connectivity and Communications Exam -
+                                                    External toolModules 4 - 7: Ethernet Concepts Exam -
+                                                    External toolModules 8 - 10: Communicating Between Networks Exam -
+                                                    External toolModules 11 - 13: IP Addressing Exam -
+                                                    External toolModules 14 - 15: Network Application Communications Exam -
+                                                    External toolModules 16 - 17: Building and Securing a Small Network Exam
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">                    
+                                        <ul class="timeline">
+                                            <li>
+                                                <h5>CISCO / USAU</h5>
+                                                <a target="_blank" href="C:\Temp\Site de Vendas\arquivo\certificados\AlexandreRCP CInglesh.pdf">Inglês Instrumental - 20 horas</a>
+                                                <span class="float-right" style="margin-right: 20px;">2021</span>
+                                                <p style="margin-top: 20px;margin-right: 20px;"> 
+                                                    Língua Inglesa e Literaturas de Língua Inglesa
+                                                </p>
+                                            </li>  
+                                            <li>
+                                                <h5>ESCOLA NACIONAL DE ADMINISTRAÇÃO PÚBLICA - ENAP</h5>
+                                                <a target="_blank" href="C:\Temp\Site de Vendas\arquivo\certificados\AlexandrePaiva_certificado_LGPD.pdf">Lei Brasileira de Proteção de Dados Pessoais - 40 horas</a>
+                                                <span class="float-right" style="margin-right: 20px;">2020</span>
+                                                <p style="margin-top: 20px;margin-right: 20px;"> 
+                                                    1. Introdução e Conceitos
+                                                    2. Chave Abrangência e Aplicabilidade
+                                                    3. Fundamentos Legais e Princípios Norteadores
+                                                    4. Direitos do Titular
+                                                    5. Agentes no Tratamento de Dados
+                                                    6. Hipótese de Tratamento e Exceções
+                                                    7. Transferência Internacional
+                                                    8. Segurança de Dados e Notificação
+                                                    9. Responsabilidade e Possíveis sanções
+                                                    10. Atribuições e Composição da Autoridade Nacional de Proteção de Dados
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5> ESCOLA DE COMUNICAÇÃO DO EXÉRCITO - ESCOM / CISCO</h5>
+                                                CCNAv7: Introduction to Cybersecurity - 32 horas
+                                                <span class="float-right" style="margin-right: 20px;">2018</span>
+                                                <p style="margin-top: 20px;margin-right: 20px;"> 
+                                                    Aprenda o que é segurança cibernética e o possível impacto para você.
+                                                    Entenda as ameaças, os ataques e as vulnerabilidades mais comuns.
+                                                    Obtenha informações sobre como as empresas protegem suas operações de ataques.
+                                                    Encontre as últimas tendências de trabalho e por que a segurança cibernética continua crescendo.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>ESCOLA DE COMUNICAÇÃO DO EXÉRCITO - ESCOM / CISCO</h5>
+                                                Networking Essential - 32 horas
+                                                <span class="float-right" style="margin-right: 20px;">2018</span>
+                                                <p style="margin-top: 20px;margin-right: 20px;">
+                                                    Curso introdução a redes de computadores.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>ESCOLA DE COMUNICAÇÃO DO EXÉRCITO - ESCOM / CISCO</h5>
+                                                CCNA Security - 40 horas
+                                                <span class="float-right" style="margin-right: 20px;">2018</span>
+                                                <p style="margin-top: 20px;margin-right: 20px;">
+                                                    Introdução em Segurança em redes de computadores.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>ESCOLA DE COMUNICAÇÃO DO EXÉRCITO - ESCOM / CISCO</h5>
+                                                CYbersecurity Essential - 40 horas
+                                                <span class="float-right" style="margin-right: 20px;">2018</span>
+                                                <p style="margin-top: 20px;margin-right: 20px;">
+                                                    Entender os controles de segurança para redes, servidores e aplicativos.
+                                                    Aprender com os principais diretores de segurança e como desenvolver políticas compatíveis.
+                                                    Implementar os procedimentos adequados para a disponibilidade e o sigilo dos dados.
+                                                    Desenvolver o pensamento crítico e as qualificações profissionais de resolução de problemas usando equipamentos
+                                                    reais e o Cisco Packet Tracer.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>SENAI</h5>
+                                                Desenvolvedor JAVA - 80 horas
+                                                <span class="float-right" style="margin-right: 20px;">2012</span>
+                                                <p style="margin-top: 20px;margin-right: 20px;">
+                                                    Atividades e grupos: Projetos em grupo, Laboratórios de aprendizagem, desenvolvimentos de Sistemas WEB. usando
+                                                    Java, PHP, Javascript, jquery e vários tipos de IDEs: eclipse, netbeans, phpMyAdimn.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5>ETB</h5>
+                                                Telecomunicação - 1.360 horas
+                                                <span class="float-right" style="margin-right: 20px;">2013 - 2015</span>
+                                                <p style="margin-top: 20px;margin-right: 20px;">
+                                                    Operador em Telecomunicações (02 semestres);
+                                                    Assistente Técnico de Manutenção em Telecomunicações (03 semestres);
+                                                    Assistente Técnico de Planejamento e Projeto em Telecomunicações (04 semestres);
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-center">
+                            <h1 class="title-with-border">Hard Skills</h1>
+                        </div>
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-10 jumbotron skills">
+                                <span>
+                                  MicrosoftwareOffice / Libre Office
+                                  <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                  </div>
+                                </span>
+                                <span>
+                                  Windows / Server
+                                  <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                  </div>
+                                </span>
+                                <span>
+                                    Linux / Server
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                    </div>
+                                </span>
+                                <span>
+                                    Pentest / Intrusão / Volnerabilidade / Risco
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                    </div>
+                                </span>
+                                <span>
+                                    Segurança / Framework / Ferramentas / Anti-virus
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                    </div>
+                                </span>
+                                <span>
+                                    Redes / LAN / WAN / Protocolos / IP's
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                    </div>
+                                </span>
+                                <span>
+                                    Suport / Atendimento / Instalação / Manuntenção / Configuração
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                    </div>
+                                </span>
+                                <span>
+                                    Java / Frameworks / IDEs
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                    </div>
+                                </span>
+                                <span>
+                                    PHP / FrameWorks
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                    </div>
+                                </span>
+                                <span>
+                                    Python
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">60%</div>
+                                    </div>
+                                </span>
+                                <span>
+                                    HTML / Frameworks
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                    </div>
+                                </span>
+                                <span>
+                                    CSS
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                        <div class="row justify-content-md-center">
+                            <h1 class="title-with-border">Contatos</h1>
+                        </div>
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-10 row jumbotron" style="text-align: center;">
+                                <div class="col-md-4">
+                                    <span>Email</span>
+                                </br>
+                                    <h6>alex.rcp@gmail.com</h6>
+                                </div>
+                                <div class="col-md-4">
+                                    <span>Sites</span>
+                                </br>
+                                    <h6><a target="_blank" href="https://www.linkedin.com/in/alexandre-paiva/">Linkdein</a></h6>
+                                    <h6><a target="_blank" href="https://github.com/AlexandreRCP">GitHub</a></h6>
+                                    <h6><a target="_blank" href="https://www.instagram.com/alex.rcp/">Instagram</a></h6>
+                                    
+                                </div>
+                                <div class="col-md-4">
+                                    <span>Telefone</span>
+                                </br>
+                                    <h6>+55(61) 9 9306-7667 <img width="15px" height="15px" src="C:\Temp\Site de Vendas\arquivo\img\whatsapp_1.png"/></h6>
+                                </div>
+                            </div>
+                            <div class="row justify-content-md-center fixarRodape">
+                                <span class="title-with-border col-md-10">© Alexandre Paiva Desenvolvimentos 2022 ® - Curriculum Vitae.</span> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
